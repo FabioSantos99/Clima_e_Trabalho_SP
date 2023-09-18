@@ -183,7 +183,6 @@ footer {
     background-color: #055e18;
     padding: 10px;
     display: flex;
-    justify-content: center;
 }
 
 footer p {
@@ -192,10 +191,7 @@ footer p {
     align-items: center;
 }
 
-footer img {
-    height: 50px;
-    width: 50px;
-}
+
 
 
 
