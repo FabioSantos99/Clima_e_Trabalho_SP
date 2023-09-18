@@ -181,12 +181,19 @@ footer {
     width: 100%;
     height: fit-content;
     background-color: #055e18;
-    padding: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 footer p {
     text-align: center;
     color: #fff;
+    align-items: center;
+}
+
+footer img {
+    height: 50px;
 }
 
 
