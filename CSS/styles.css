@@ -36,6 +36,84 @@ header > div {
     background-color: #bababa8e;
 }
 
+#access-btn {
+    position: absolute;
+    left: 35%;
+    top: 42%;
+    display: block;
+    width: 225px;
+    height: 60px;
+}
+
+#form {
+    position: fixed; /* Muda de absolute para fixed */
+    top: 50%; /* Posiciona no meio da tela verticalmente */
+    left: 50%; /* Posiciona no meio da tela horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta a posição para centralizar */
+    border: 1px solid #d64807;
+    width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 100px 10000px #000000ca;
+    background-color: #515151;
+    color: #fff;
+}
+
+#form > h2 {
+    margin-bottom: 20px;
+    font-variant: small-caps;
+}
+
+#form > i {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    font-size: 20px;
+}
+
+#form > img {
+    position: absolute;
+    width: 60px;
+    left: 200px;
+}
+
+button {
+    
+    padding: 10px 25px 10px 10px;
+    color: #fff;
+    background-color: #d64807;
+    margin-top: 50px;
+    margin-left: 110px;
+    font-weight: 600;
+}
+
+button:hover {
+    color: #d64807;
+    background-color: #fff;
+    transition: 0.4s;
+}
+
+.hide {
+    display: none;
+    animation: moveIn .3s ease-in;
+ }
+
+ .close-btn {
+    cursor: pointer;
+ }
+
+ @keyframes moveIn { 
+    0% {
+          opacity: 0;
+          transform: translateY(-16rem);
+    }
+  
+    100% {
+          opacity: 1;
+          transform: translateY(5);
+    }   
+  }
+  
 .container {
     margin: 120px 50px 10px 40px;
     border: none;
