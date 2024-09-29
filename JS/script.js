@@ -13,3 +13,11 @@ closeBtn.addEventListener('click', () => {
 accessClose.addEventListener('click', () => {
     form.style.display = 'none';
 });
+
+document.getElementById('access-btn').onmouseover = function() {
+    this.style.transform = 'scale(1.05)';
+};
+document.getElementById('access-btn').onmouseout = function() {
+    this.style.transform = 'scale(1)';
+};
+
